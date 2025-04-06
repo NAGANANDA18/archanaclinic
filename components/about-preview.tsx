@@ -19,7 +19,7 @@ export default function AboutPreview() {
         <div>
           <h2 className="mb-4 text-3xl font-bold text-primary md:text-4xl">Meet Dr. Muralidhara K.A</h2>
           <p className="mb-6 text-lg text-muted-foreground">
-            Dr. Muralidhara K.A is a highly qualified Neuro-Psychiatrist with over 15 years of experience in treating
+            Dr. Muralidhara K.A is a highly qualified Neuro-Psychiatrist with over 5 years of experience in treating
             various neurological and psychiatric conditions. His patient-centered approach and commitment to excellence
             have made Archana Clinic a trusted healthcare provider in the community.
           </p>
@@ -31,7 +31,7 @@ export default function AboutPreview() {
             </div>
             <div className="rounded-lg bg-primary/5 p-4">
               <h3 className="mb-2 text-lg font-semibold text-primary">Experience</h3>
-              <p className="text-muted-foreground">15+ years of clinical practice in Neuro-Psychiatry</p>
+              <p className="text-muted-foreground">5+ years of clinical practice in Neuro-Psychiatry</p>
             </div>
             <div className="rounded-lg bg-primary/5 p-4">
               <h3 className="mb-2 text-lg font-semibold text-primary">Specialization</h3>
