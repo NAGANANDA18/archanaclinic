@@ -93,7 +93,7 @@ export default function ServicesPage() {
   const generalCareSlides = [
     {
       title: "Preventive Healthcare",
-      items: ["Routine Health Check-ups", "Health Risk Assessments", "Vaccination Services", "Health Education"],
+      items: ["Routine Health Check-ups", "Health Risk Assessments", "Health Education"],
     },
     {
       title: "Chronic Disease Management",
@@ -134,15 +134,27 @@ export default function ServicesPage() {
 
       <Tabs defaultValue="neuro-psychiatry" className="mb-16">
         <TabsList className="grid w-full grid-cols-3">
-          <TabsTrigger value="neuro-psychiatry" id="neuro-psychiatry">
-            Psychiatric Care
-          </TabsTrigger>
-          <TabsTrigger value="addiction-treatment" id="addiction-treatment">
-            Addiction Treatment
-          </TabsTrigger>
-          <TabsTrigger value="general-care" id="general-care">
-            General Medical Care
-          </TabsTrigger>
+        <TabsTrigger
+    className="text-[10px] sm:text-base px-1 sm:px-4 py-2 text-center data-[state=active]:font-semibold"
+    value="neuro-psychiatry"
+    id="neuro-psychiatry"
+  >
+    Psychiatric Care
+  </TabsTrigger>
+  <TabsTrigger
+    className="text-[10px] sm:text-base px-1 sm:px-4 py-2 text-center data-[state=active]:font-semibold"
+    value="addiction-treatment"
+    id="addiction-treatment"
+  >
+    Addiction Treatment
+  </TabsTrigger>
+  <TabsTrigger
+    className="text-[10px] sm:text-base px-1 sm:px-4 py-2 text-center data-[state=active]:font-semibold"
+    value="general-care"
+    id="general-care"
+  >
+    General Medical Care
+  </TabsTrigger>
         </TabsList>
 
         <TabsContent value="neuro-psychiatry" className="mt-6">
@@ -193,7 +205,7 @@ export default function ServicesPage() {
                     </div>
                   </div>
 
-                  <div className="flex justify-between mt-4">
+                  <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mt-4">
                     <Button
                       variant="outline"
                       size="icon"
@@ -320,7 +332,7 @@ export default function ServicesPage() {
                     </div>
                   </div>
 
-                  <div className="flex justify-between mt-4">
+                  <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mt-4">
                     <Button
                       variant="outline"
                       size="icon"
@@ -479,7 +491,7 @@ export default function ServicesPage() {
                     </div>
                   </div>
 
-                  <div className="flex justify-between mt-4">
+                  <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mt-4">
                     <Button
                       variant="outline"
                       size="icon"
@@ -563,7 +575,8 @@ export default function ServicesPage() {
         className="bg-muted/50 p-8 rounded-xl mb-16"
       >
         <h2 className="text-2xl font-semibold text-primary mb-6 text-center">Our Treatment Process</h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+
           {[
             {
               step: "Initial Consultation",

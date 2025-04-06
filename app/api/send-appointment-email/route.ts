@@ -85,7 +85,7 @@ export async function POST(request: Request) {
     // Email notification to the clinic staff
     await transporter.sendMail({
       from: `"Appointment System" <${process.env.EMAIL_FROM || "appointment.archanaclinic@gmail.com"}>`,
-      to: process.env.ADMIN_EMAIL || "rvit23mca035.rvitm@rvei.edu.in",
+      to: process.env.ADMIN_EMAIL || "muralianjanappa@gmail.com",
       subject: "New Appointment Booking",
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e0e0e0; border-radius: 5px;">

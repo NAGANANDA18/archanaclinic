@@ -165,7 +165,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold">Email</h3>
-                <p className="text-muted-foreground">info@archanaclinic.com</p>
+                <p className="text-muted-foreground">muralianjanappa@gmail.com</p>
                 <p className="text-muted-foreground">appointment.archanaclinic@gmail.com</p>
               </div>
             </div>

@@ -26,6 +26,7 @@ export default function AboutPage() {
 
         <div className="flex flex-col justify-center">
           <h2 className="mb-4 text-3xl font-bold text-primary">Professional Profile</h2>
+          <p className="mb-6 text-lg">KMC Registration no-72544.</p>
           <p className="mb-4 text-lg">
             Dr. Muralidhara K.A is a highly qualified Neuro-Psychiatrist with over 9 years of experience in treating
             various psychiatric conditions.
