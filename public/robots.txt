@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://archanaclinic.vercel.app
+
+# Sitemaps
+Sitemap: https://archanaclinic.vercel.app/sitemap.xml
