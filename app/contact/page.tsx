@@ -177,8 +177,8 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold">Working Hours</h3>
-                <p className="text-muted-foreground">Mon - Sat: 9:00 AM - 7:00 PM</p>
-                <p className="text-muted-foreground">Sunday: 10:00 AM - 2:00 PM</p>
+                <p className="text-muted-foreground">sat - sun: 7:00 pm - 10:00 PM</p>
+               
               </div>
             </div>
           </div>
@@ -237,7 +237,6 @@ export default function ContactPage() {
                     <SelectValue placeholder="Select a service" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="neurological">Neurological Consultation</SelectItem>
                     <SelectItem value="psychiatric">Psychiatric Consultation</SelectItem>
                     <SelectItem value="general">General Medical Check-up</SelectItem>
                     <SelectItem value="counseling">Counseling Session</SelectItem>
@@ -258,9 +257,7 @@ export default function ContactPage() {
                     <SelectValue placeholder="Select a time slot" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="morning">Morning (9:00 AM - 12:00 PM)</SelectItem>
-                    <SelectItem value="afternoon">Afternoon (12:00 PM - 3:00 PM)</SelectItem>
-                    <SelectItem value="evening">Evening (7:00 PM - 9:00 PM)</SelectItem>
+                    <SelectItem value="evening">Evening (7:00 PM - 10:00 PM)</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
