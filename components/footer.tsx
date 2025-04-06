@@ -1,5 +1,4 @@
 import Link from "next/link"
-<<<<<<< HEAD
 
 export default function Footer() {
   return (
@@ -85,32 +84,10 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-muted-foreground hover:text-primary transition-colors">
-=======
-import { Mail, Phone, MapPin } from "lucide-react"
-
-export default function Footer() {
-  return (
-    <footer className="bg-primary text-white">
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid gap-8 md:grid-cols-4">
-          <div>
-            <h2 className="mb-4 text-2xl font-bold">Archana Clinic</h2>
-            <p className="mb-4 text-primary-foreground/90">
-              Specialized healthcare facility offering Neuro-Psychiatry and General Medical Care services.
-            </p>
-          </div>
-
-          <div>
-            <h3 className="mb-4 text-lg font-semibold">Quick Links</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/" className="text-primary-foreground/90 transition-colors hover:text-white">
->>>>>>> ed5b46e2d0506aedd79ed4919dbb472e9016bcdb
                   Home
                 </Link>
               </li>
               <li>
-<<<<<<< HEAD
                 <Link href="/about" className="text-muted-foreground hover:text-primary transition-colors">
                   About Dr. Muralidhara
                 </Link>
@@ -128,27 +105,12 @@ export default function Footer() {
               <li>
                 <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors">
                   Contact Us
-=======
-                <Link href="/about" className="text-primary-foreground/90 transition-colors hover:text-white">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link href="/services" className="text-primary-foreground/90 transition-colors hover:text-white">
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-primary-foreground/90 transition-colors hover:text-white">
-                  Contact
->>>>>>> ed5b46e2d0506aedd79ed4919dbb472e9016bcdb
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-<<<<<<< HEAD
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
@@ -172,27 +134,10 @@ export default function Footer() {
                   href="/services#general-care"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-=======
-            <h3 className="mb-4 text-lg font-semibold">Services</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/services" className="text-primary-foreground/90 transition-colors hover:text-white">
-                  Neurological Care
-                </Link>
-              </li>
-              <li>
-                <Link href="/services" className="text-primary-foreground/90 transition-colors hover:text-white">
-                  Psychiatric Treatment
-                </Link>
-              </li>
-              <li>
-                <Link href="/services" className="text-primary-foreground/90 transition-colors hover:text-white">
->>>>>>> ed5b46e2d0506aedd79ed4919dbb472e9016bcdb
                   General Medical Care
                 </Link>
               </li>
               <li>
-<<<<<<< HEAD
                 <Link
                   href="/services#addiction-treatment"
                   className="text-muted-foreground hover:text-primary transition-colors"
@@ -203,17 +148,12 @@ export default function Footer() {
               <li>
                 <Link href="/services" className="text-muted-foreground hover:text-primary transition-colors">
                   Psychotherapy
-=======
-                <Link href="/services" className="text-primary-foreground/90 transition-colors hover:text-white">
-                  Counseling
->>>>>>> ed5b46e2d0506aedd79ed4919dbb472e9016bcdb
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-<<<<<<< HEAD
             <h3 className="text-lg font-semibold mb-4">Contact Information</h3>
             <ul className="space-y-2">
               <li className="flex items-start">
@@ -232,9 +172,7 @@ export default function Footer() {
                   <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
                   <circle cx="12" cy="10" r="3" />
                 </svg>
-                <span className="text-muted-foreground">#64/38, "Lahari", 1st Main KGS Layout, Vijayanagar
-
-Bangalore, Karnataka 560040</span>
+                <span className="text-muted-foreground">#64/38, "Lahari", 1st Main KGS Layout, Vijayanagar, Bangalore, Karnataka 560040</span>
               </li>
               <li className="flex items-start">
                 <svg
@@ -251,7 +189,7 @@ Bangalore, Karnataka 560040</span>
                 >
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                 </svg>
-                <span className="text-muted-foreground">+91 9741158134</span>
+                <span className="text-muted-foreground">+91 9741126784</span>
               </li>
               <li className="flex items-start">
                 <svg
@@ -287,34 +225,14 @@ Bangalore, Karnataka 560040</span>
                   <circle cx="12" cy="12" r="10" />
                   <polyline points="12 6 12 12 16 14" />
                 </svg>
-                <span className="text-muted-foreground">Sat-Sun: 7pm-10PM</span>
-=======
-            <h3 className="mb-4 text-lg font-semibold">Contact Info</h3>
-            <ul className="space-y-3">
-              <li className="flex items-start">
-                <MapPin className="mr-2 h-5 w-5 shrink-0" />
-                <span>#64/38, "Lahari", 1st Main KGS Layout, Vijayanagar, Bangalore, Karnataka 560040</span>
-              </li>
-              <li className="flex items-center">
-                <Phone className="mr-2 h-5 w-5" />
-                <span>+91 9741158134</span>
-              </li>
-              <li className="flex items-center">
-                <Mail className="mr-2 h-5 w-5" />
-                <span>info@archanaclinic.com</span>
->>>>>>> ed5b46e2d0506aedd79ed4919dbb472e9016bcdb
+                <span className="text-muted-foreground">Sat-sun: 7pm-10PM</span>
               </li>
             </ul>
           </div>
         </div>
 
-<<<<<<< HEAD
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground text-sm">
-=======
-        <div className="mt-12 border-t border-white/20 pt-6 text-center">
-          <p className="text-primary-foreground/90">
->>>>>>> ed5b46e2d0506aedd79ed4919dbb472e9016bcdb
             &copy; {new Date().getFullYear()} Archana Clinic. All rights reserved.
           </p>
         </div>
@@ -322,7 +240,4 @@ Bangalore, Karnataka 560040</span>
     </footer>
   )
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> ed5b46e2d0506aedd79ed4919dbb472e9016bcdb

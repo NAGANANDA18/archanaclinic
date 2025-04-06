@@ -16,11 +16,7 @@ export default function AboutPage() {
         <div className="flex items-center justify-center">
           <div className="relative h-[400px] w-[300px] overflow-hidden rounded-lg shadow-xl transition-all duration-500 hover:shadow-2xl">
             <Image
-<<<<<<< HEAD
               src="photo.jpeg? height=800&width=600"
-=======
-              src="https://i.pinimg.com/236x/9f/8a/04/9f8a04de9dc05da8123f530d29818472.jpg? height=800&width=600"
->>>>>>> ed5b46e2d0506aedd79ed4919dbb472e9016bcdb
               alt="Dr. Muralidhara K.A"
               fill
               className="object-cover"
@@ -31,13 +27,8 @@ export default function AboutPage() {
         <div className="flex flex-col justify-center">
           <h2 className="mb-4 text-3xl font-bold text-primary">Professional Profile</h2>
           <p className="mb-4 text-lg">
-<<<<<<< HEAD
             Dr. Muralidhara K.A is a highly qualified Neuro-Psychiatrist with over 9 years of experience in treating
             various psychiatric conditions.
-=======
-            Dr. Muralidhara K.A is a highly qualified Neuro-Psychiatrist with over 15 years of experience in treating
-            various neurological and psychiatric conditions.
->>>>>>> ed5b46e2d0506aedd79ed4919dbb472e9016bcdb
           </p>
           <p className="mb-6 text-lg">
             After completing his medical education from a prestigious institution, he specialized in Neuro-Psychiatry
@@ -51,11 +42,7 @@ export default function AboutPage() {
             </div>
             <div className="flex items-center gap-2">
               <BookOpen className="h-5 w-5 text-primary" />
-<<<<<<< HEAD
               <span>9 Years Experience</span>
-=======
-              <span>15+ Years Experience</span>
->>>>>>> ed5b46e2d0506aedd79ed4919dbb472e9016bcdb
             </div>
             <div className="flex items-center gap-2">
               <Award className="h-5 w-5 text-primary" />
@@ -74,7 +61,7 @@ export default function AboutPage() {
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {[
             {
-<<<<<<< HEAD
+
               title: "Psychosis",
               description:
                 "Diagnosis and treatment of psychotic disorders including hallucinations, delusions, and disorganized thinking.",
@@ -118,49 +105,6 @@ export default function AboutPage() {
               title: "Marital Discord & Interpersonal Conflicts",
               description:
                 "Counseling and therapy for couples and individuals experiencing relationship difficulties and communication problems.",
-=======
-              title: "Neurological Disorders",
-              description:
-                "Diagnosis and treatment of various neurological conditions including epilepsy, stroke, and movement disorders.",
-            },
-            {
-              title: "Psychiatric Care",
-              description:
-                "Comprehensive treatment for depression, anxiety, bipolar disorder, schizophrenia, and other mental health conditions.",
-            },
-            {
-              title: "Addiction Medicine",
-              description:
-                "Specialized care for substance abuse disorders and behavioral addictions with a focus on recovery.",
-            },
-            {
-              title: "Geriatric Psychiatry",
-              description:
-                "Specialized mental health care for older adults, addressing age-related neurological and psychiatric concerns.",
->>>>>>> ed5b46e2d0506aedd79ed4919dbb472e9016bcdb
-            },
-            {
-              title: "Child & Adolescent Psychiatry",
-              description:
-<<<<<<< HEAD
-                "Specialized care for young patients with ADHD, conduct problems, learning difficulties, and developmental disorders.",
-            },
-            {
-              title: "Counseling & Psychotherapy",
-              description:
-                "Evidence-based therapeutic approaches to help patients develop coping strategies and improve mental well-being.",
-            },
-            {
-              title: "Elderly Care",
-              description:
-                "Specialized treatment for older adults with dementia, age-related psychosis, depression, and other geriatric mental health concerns.",
-=======
-                "Dedicated care for young patients dealing with developmental, behavioral, and emotional issues.",
-            },
-            {
-              title: "General Medicine",
-              description: "Comprehensive primary healthcare services for patients of all ages.",
->>>>>>> ed5b46e2d0506aedd79ed4919dbb472e9016bcdb
             },
           ].map((item, index) => (
             <Card key={index} className="transition-all duration-300 hover:shadow-lg">
@@ -178,33 +122,16 @@ export default function AboutPage() {
         <div className="space-y-6">
           <div className="rounded-lg border bg-card p-6 shadow-sm">
             <h3 className="mb-2 text-xl font-semibold">MBBS</h3>
-<<<<<<< HEAD
             <p className="mb-1 text-muted-foreground">Sree Siddhartha Medical College, Tumkur 2004</p>
-=======
-            <p className="mb-1 text-muted-foreground">Prestigious Medical College, 2005</p>
->>>>>>> ed5b46e2d0506aedd79ed4919dbb472e9016bcdb
             <p>Graduated with honors in general medicine and surgery.</p>
           </div>
 
           <div className="rounded-lg border bg-card p-6 shadow-sm">
             <h3 className="mb-2 text-xl font-semibold">MD (Psychiatry)</h3>
-<<<<<<< HEAD
+
             <p className="mb-1 text-muted-foreground">Karnataka Institute of Medical Sciences (KIMS), Hubli 2016</p>
             <p>Specialized in psychiatric disorders with focus on neurological aspects.</p>
           </div>
-
-        
-=======
-            <p className="mb-1 text-muted-foreground">National Institute of Mental Health, 2009</p>
-            <p>Specialized in psychiatric disorders with focus on neurological aspects.</p>
-          </div>
-
-          <div className="rounded-lg border bg-card p-6 shadow-sm">
-            <h3 className="mb-2 text-xl font-semibold">Fellowship in Neuropsychiatry</h3>
-            <p className="mb-1 text-muted-foreground">International Neuropsychiatric Institute, 2011</p>
-            <p>Advanced training in the intersection of neurology and psychiatry.</p>
-          </div>
->>>>>>> ed5b46e2d0506aedd79ed4919dbb472e9016bcdb
         </div>
       </div>
 
@@ -221,7 +148,3 @@ export default function AboutPage() {
     </main>
   )
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> ed5b46e2d0506aedd79ed4919dbb472e9016bcdb
